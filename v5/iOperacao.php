@@ -1,0 +1,9 @@
+<?php 
+
+    interface IOperacao
+    {
+        public function setNum1(float $num1): void;
+        public function setNum2(float $num1): void;
+        public function calcula(): float;
+    }
+?>
